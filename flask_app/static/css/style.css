@@ -1,0 +1,86 @@
+body {
+    margin: 0 auto;
+    text-align: center;
+}
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+}
+.form-2-column {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 20px;
+}
+.left {
+    padding: 20px;
+}
+.right {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+.minwid {
+    min-width: 160px;
+}
+.border {
+    border: 2px solid black;
+    border-radius: 3px;
+}
+.no-marg {
+    margin: 0;
+}
+.table {
+    margin: 0 auto;
+    max-width: fit-content;
+}
+.info {
+    min-width: 300px;
+    text-align: start;
+    padding: 5px;
+    padding-left: 20px;
+}
+.hache {
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.form {
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    border: 1px solid #adb5bd;
+    border-radius: 3px;
+}
+.btn {
+    margin: 0 3px;
+}
+.all-authors {
+    min-width: 250px;
+}
+.input {
+    margin-bottom: 20px;
+    width: 400px;
+}
+.submit {
+    margin-bottom: 10px;
+}
+.marg-top {
+    margin-top: 10px;
+}
+textarea.instructions {
+    min-height: 300px;
+}
